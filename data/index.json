@@ -1,1 +1,45 @@
-{}
+{
+  "a164d65e-5ab7-48ce-b52d-65150a217ee8": {
+    "timed": true,
+    "story ID": "a164d65e-5ab7-48ce-b52d-65150a217ee8",
+    "title": {
+      "_default": "STE-020_JLN_2013_Nunkui"
+    },
+    "media": {
+      "audio": "STE-020_JLN_2013_Nunkui.mp3",
+      "video": ""
+    },
+    "languages": [],
+    "date_created": "",
+    "date_uploaded": "1/23/2026",
+    "source": {
+      "_default": ""
+    },
+    "description": "",
+    "genre": "",
+    "author": "",
+    "glosser": "",
+    "speakers": [
+      "Juan Luis Noningo"
+    ],
+    "xml_file_name": "STE-020_JLN_2013_Nunkui.eaf",
+    "source_filetype": "ELAN",
+    "tier IDs": {
+      "Transcripción": {
+        "subdivided": false
+      },
+      "Traducción": {
+        "subdivided": false
+      },
+      "Notas": {
+        "subdivided": false
+      }
+    },
+    "speaker IDs": {
+      "S1": {
+        "name": "Juan Luis Noningo",
+        "tier": "Transcripción"
+      }
+    }
+  }
+}
