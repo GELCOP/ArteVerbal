@@ -36,7 +36,7 @@ jobs:
       actoremail: ${{ github.actor }}@users.noreply.github.com
     steps:
       - name: Check out base branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: ${{ env.base_branch }}
           fetch-depth: 0 # fetch the whole history (necessary for merge)

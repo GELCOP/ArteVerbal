@@ -14,10 +14,10 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1.4.4
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
 
@@ -46,10 +46,10 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1.4.4
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
 
@@ -66,7 +66,7 @@ jobs:
         REMOTE_MEDIA_PATH: ${{ secrets.REMOTE_MEDIA_PATH }}
 
     - name: Save offline-compatible local version as an artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: LingView-local
         path: bundle-offline
