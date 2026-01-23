@@ -21,11 +21,24 @@ body {
 }
 #navTitle {
 	margin-right: 1em;
+    max-width: 65%;   /* o el valor que prefieras */
+    white-space: normal; /* permite saltos de línea */
+    word-wrap: break-word; /* fuerza el quiebre si es necesario */
 }
 #navTitle a {
     font-weight: 700;
     font-size: 1.6em;
     text-decoration: none;
+}
+#navSubtitle {
+    font-weight: 600;
+    font-size: 0.7em !important;
+    margin-left: 0.5em;
+    color: white;
+    white-space: normal;
+    word-wrap: break-word;
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
 }
 #navLinks {
     margin-top: 0.3em;
@@ -60,7 +73,7 @@ body {
 }
 
 #leftPanel {
-	width: 300px;
+	width: 350px;
 	position: fixed;
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -111,13 +124,46 @@ table.gloss {
 }
 
 .topRow {
-	font-weight: 600;
-}
+	font-family: 'EB Garamond', serif;
+	font-size: 14pt;
+	font-style: italic;
+	line-height: 28px;
 
+}
 td {
 	padding-left: 4px;
 	padding-right: 4px;
-	white-space: nowrap;
+	max-width: 800px;   /* o el ancho que tú quieras */
+    white-space: normal;
+	overflow-wrap: break-word;
+}
+tr[data-tier="Transcripción"] td {
+	max-width: 800px;   /* o el ancho que tú quieras */
+    white-space: normal;
+	overflow-wrap: break-word;
+}
+tr[data-tier="Traducción"] td {
+	font-family: 'EB Garamond', serif;
+	font-size: 13pt;
+	padding-top: 11px;
+	max-width: 800px;   /* o el ancho que tú quieras */
+    white-space: normal;
+	overflow-wrap: break-word;
+	line-height: 25px;
+}
+tr[data-tier="Notas"] td {
+	padding-top: 30px ;
+	font-size: 10pt;
+	max-width: 700px;   /* o el ancho que tú quieras */
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+tr[data-tier="Notas"] td[colspan="1"]:empty {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    line-height: 0.8; /* reduce altura visual */
+    height: 50%;      /* la mitad */
 }
 /*	MAIN.CSS
 	->	Text Display
@@ -130,8 +176,8 @@ td {
 
 #centerPanel {
 	position: fixed;
-	margin-left: 300px;
-	width: calc(100% - 300px);
+	margin-left: 500px;
+	width: calc(100% - 500px);
 	height: calc(100% - 88px); /* Minus the navBar and the footer. */
 	overflow-y: auto;
 	overflow-x: hidden;
@@ -141,11 +187,11 @@ td {
 	clear: both;
 	float: left;
 	display: grid;
-	grid-template-columns: 1fr 7fr;
-	padding-right: 10px;
-	padding-top: 27px;
-	padding-bottom: 27px;
+	grid-template-columns: 0.7fr 7fr;
+	padding-top: 18px;
+	padding-bottom: 18px;
 	width: 100%;
+	border-top: black 0.2px solid;	
 }
 
 .timeBlock {
@@ -159,7 +205,7 @@ td {
 		Untimed */
 #untimedTextDisplay {
 	position: fixed;
-	width: calc(100% - 300px);
+	width: calc(100% - 500px);
 	height: calc(100% - 88px); /* Minus the navBar and the footer. */
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -169,12 +215,11 @@ td {
 	clear: both;
 	float: left;
 	display: grid;
-	grid-template-columns: 1fr 7fr;
-	padding-right: 10px;
-	padding-top: 27px;
-	padding-bottom: 27px;
+	grid-template-columns: 0.7fr 7fr;
+	padding-top: 18px;
+	padding-bottom: 18px;
 	width: 100%;
-	overflow-x: auto;
+	border-top: black 0.2px solid;	
 }
 
 .latexButton {
@@ -250,20 +295,18 @@ td {
 	color: white;
 }
 
-span.timeStamp {
-	padding-top: 3px;
-	float: left;
-	/*margin-right: 9px;*/
-	margin-left: 9px;
-	padding-right: 9px;
-	text-align: center;
-	min-width: 46px;
-	padding-top: 8px;
-	padding-bottom: 5px;
-	color: black;
-	font-weight: 700;
-	text-decoration: none;
-	cursor: pointer;
+.timeStamp {
+    display: inline-flex;      /* o flex */
+    justify-content: center;   /* centro horizontal */
+    align-items: center;       /* centro vertical */
+
+    margin-left: 9px;
+    padding: 8px 9px 5px;
+    min-width: 46px;
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .searchSentence {
@@ -278,15 +321,18 @@ span.timeStamp {
 }
 
 .labeledSentence {
-	white-space: nowrap;
-	padding-top: 5px;
-	padding-bottom: 5px;
+    display: flex;
+    align-items: center;       /* centra vertical */
+
+    white-space: nowrap;
+    padding: 5px 0 5px 10px;
 }
 
 .speakerLabel {
 	float: left;
 	margin-top: 3px;
 	font-weight: 600;
+    display: none;
 }
 
 .searchPageButton {
@@ -315,10 +361,22 @@ ul {
 }
 
 #title {
+	font-size: 1.5em;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-style: italic;
 	font-weight: 700;
 	font-size: 1.7em;
+    margin-bottom: 0;
+
+}
+.subtitle {
+	margin-top: 0;
+    margin-bottom: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: 600;
+	font-size: 1.2em;
 }
 
 a:visited, a {
@@ -393,6 +451,10 @@ a:visited, a {
 	margin: 20px 20px;
 }
 
+#metadata p {
+    text-align: justify;
+}
+
 #speakerList ul {
 	margin-left: 17px;
 	list-style: square;
@@ -405,10 +467,23 @@ video {
 #indexTable {
 	text-align: center;
 }
-
 .loader {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 10em;
+}
+.dt-center {
+  text-align: center !important;
+}
+/* Layout overrides for wider left panel */
+#leftPanel {
+	width: 350px !important;
+}
+#centerPanel {
+	margin-left: 350px !important;
+	width: calc(100% - 350px) !important;
+}
+#indexTable_filter {
+    display: none !important;
 }
