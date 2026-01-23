@@ -477,6 +477,17 @@ function preprocess(adocIn, pfsxIn, jsonFilesDir, xmlFileName, callback) {
 //   then executes the callback, passing the list of all story IDs that were processed
 //   as an argument to the callback function. 
 function preprocessDir(eafFilesDir, jsonFilesDir, callback) {
+  // Check if directory exists, if not return empty result
+  if (!fs.existsSync(eafFilesDir)) {
+    console.log(`Directory ${eafFilesDir} does not exist, skipping ELAN preprocessing.`);
+    callback({
+      numJobs: 0,
+      storyIDs: [],
+      storyID2Name: {}
+    });
+    return;
+  }
+  
   const eafFileNames = fs.readdirSync(eafFilesDir).filter(f => 
     f[0] !== "." && f.slice(-4) !== 'pfsx'
   ); // excludes pfsx files (which are generated just by opening ELAN) and hidden files

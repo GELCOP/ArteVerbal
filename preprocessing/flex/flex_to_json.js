@@ -397,6 +397,17 @@ function preprocessText(jsonIn, jsonFilesDir, fileName, callback) {
 //   then executes the callback, passing the list of all story IDs that were processed
 //   as an argument to the callback function. 
 function preprocessDir(xmlFilesDir, jsonFilesDir, callback) {
+  // Check if directory exists, if not return empty result
+  if (!fs.existsSync(xmlFilesDir)) {
+    console.log(`Directory ${xmlFilesDir} does not exist, skipping FLEx preprocessing.`);
+    callback({
+      numJobs: 0,
+      storyIDs: [],
+      storyID2Name: {}
+    });
+    return;
+  }
+  
   const xmlFileNames = fs.readdirSync(xmlFilesDir).filter(f => f[0] !== '.'); // excludes hidden files
 
   // use this to wait for all preprocess calls to terminate before executing the callback
