@@ -3,8 +3,6 @@ import Fuse from 'fuse.js';
 import { SearchSentence } from './Stories/Story/Display/Sentence.jsx';
 import { TranslatableText } from './locale/TranslatableText.jsx'
 import { searchPagePromptText, searchPageNextButtonText, searchPagePrevButtonText } from './locale/LocaleConstants.jsx';
-var htmlEscape = require('ent/encode');
-var decode = require('ent/decode');
 // Note: tier names should be escaped when used as HTML attributes (e.g. data-tier=tier_name),
 // but not when used as page text (e.g. <label>{tier_name}</label>)
 
@@ -51,7 +49,7 @@ export class Search extends React.Component {
     build_fuse() {
         let fields = [];
         document.getElementsByName("fields").forEach(function (e) {
-            if (e.checked) fields.push(decode(`dependents.${e.id}.value`));
+            if (e.checked) fields.push(`dependents.${e.id}.value`);
         });
 
         var options = {
@@ -77,13 +75,16 @@ export class Search extends React.Component {
         let searchResult = this.fuse.search(query); 
         let searchResults = [];
         for (var i = 0, j = searchResult.length; i < j; i++) {
-            if ('speaker' in searchResult[i]) {
-                let component = (<SearchSentence sentence={searchResult[i].item} true />);
-                searchResults.push(component);
-            } else {
-                let component = (<SearchSentence sentence={searchResult[i].item} false />);
-                searchResults.push(component);
-            }
+            const item = searchResult[i].item;
+            const hasSpeaker = ('speaker' in item);
+            let component = (
+                <SearchSentence
+                    key={i}
+                    sentence={item}
+                    hasSpeaker={hasSpeaker}
+                />
+            );
+            searchResults.push(component);
         }
         this.setState({ "searchResults": searchResults });
     }
@@ -97,7 +98,7 @@ export class Search extends React.Component {
         let tiers = this.state.searchIndex['tier IDs'];
         tiers.forEach((tier) => {
             checkboxes.push(
-                <input id={htmlEscape(tier)} name="fields" type="checkbox" onChange={this.search.bind(this)}
+                <input id={tier} name="fields" type="checkbox" onChange={this.search.bind(this)}
                 defaultChecked />
             );
             checkboxes.push(<label>{tier}</label>);

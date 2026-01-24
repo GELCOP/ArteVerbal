@@ -24,7 +24,7 @@ export function Header() {
             <TranslatableText dictionary={navBarTitleText} />
           </Link>
           <Link to="/">
-            <span id="navSubtitle">Hacia un estudio del discurso narrativo oral en lenguas de la Amazonía peruana</span>
+            <span id="navSubtitle">hacia un estudio del discurso narrativo oral en lenguas de la Amazonía peruana</span>
           </Link>
         </div>
         <div id="navLinks">
