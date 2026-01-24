@@ -29,6 +29,8 @@ jobs:
         npm run bundle
       env:
         CI: true
+        # REMOTE_MEDIA_PATH: Set this secret in repository settings if you need remote media support
+        # If not set, the build will work but will skip remote media search
         REMOTE_MEDIA_PATH: ${{ secrets.REMOTE_MEDIA_PATH }}
 
     - name: Deploy online version to GitHub Pages
@@ -63,6 +65,8 @@ jobs:
         mv bundle bundle-offline/LingView
       env:
         CI: true
+        # REMOTE_MEDIA_PATH: Set this secret in repository settings if you need remote media support
+        # If not set, the build will work but will skip remote media search
         REMOTE_MEDIA_PATH: ${{ secrets.REMOTE_MEDIA_PATH }}
 
     - name: Save offline-compatible local version as an artifact

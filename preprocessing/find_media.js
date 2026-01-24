@@ -123,8 +123,12 @@ function mediaSearch(filename, mediaType, mediaFiles, extensions) {
 }
 
 function remoteMediaSearch(filenamesToTry) {
-  if (!process.env.REMOTE_MEDIA_PATH || typeof process.env.REMOTE_MEDIA_PATH !== "string") {
-    console.warn(`Error while trying to locate media in remote storage: Unsupported value ${process.env.REMOTE_MEDIA_PATH} for REMOTE_MEDIA_PATH env variable.`);
+  if (!process.env.REMOTE_MEDIA_PATH || typeof process.env.REMOTE_MEDIA_PATH !== "string" || process.env.REMOTE_MEDIA_PATH.trim() === "") {
+    // Only warn if REMOTE_MEDIA_PATH was explicitly set but is invalid
+    // If it's not set at all, silently skip remote media search
+    if (process.env.REMOTE_MEDIA_PATH !== undefined && process.env.REMOTE_MEDIA_PATH !== "") {
+      console.warn(`Error while trying to locate media in remote storage: Unsupported value ${process.env.REMOTE_MEDIA_PATH} for REMOTE_MEDIA_PATH env variable.`);
+    }
   } else {
     for (const filename of filenamesToTry) {
       const remoteUrl = `${process.env.REMOTE_MEDIA_PATH.replace(/\/$/, '')}/${filename}`;
