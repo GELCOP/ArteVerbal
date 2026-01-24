@@ -4,6 +4,8 @@ const indexObj = JSON.parse(fs.readFileSync("data/index.json", "utf8"));
 
 let filename;
 let data;
+let storyData;
+let storyJsonPath;
 
 let maxArgIndex = 0;
 
@@ -21,6 +23,12 @@ if (maxArgIndex < 2) {
 } else {
 	try {
 		data = indexObj[filename];
+		storyJsonPath = `data/json_files/${filename}.json`;
+		if (fs.existsSync(storyJsonPath)) {
+			storyData = JSON.parse(fs.readFileSync(storyJsonPath, "utf8"));
+		} else {
+			console.log("⚠️  Story JSON file not found. Tier ID edits will only update the index.");
+		}
 		main(update);
 		console.log("✅" + "  " + "File found! Preparing to edit...");
 	} catch (err) {
@@ -45,14 +53,18 @@ function main(callback) {
 				"audio",
 				"video",
 				"title",
+				"subtitle",
 				"description",
-				"genre",
-				"author",
-				"glosser",
-				"date recorded",
-				"source"
-			]
-		},
+				"translation",
+				"narration",
+			"genre",
+			"author",
+			"glosser",
+			"date recorded",
+			"source",
+			"tier IDs"
+		]
+	},
 		// mp3
 		{
 			"type": "input",
@@ -103,6 +115,36 @@ function main(callback) {
 			"default": data["title"]["_default"],
 			"when": function (answers) {
 				return answers.valueToEdit === "title"
+			}
+		},
+        // edit subtitle?
+        {
+            "type": "input",
+            "name": "subtitle",
+            "message": "Subtitle:",
+            "default": data["subtitle"],
+            "when": function (answers) {
+                return answers.valueToEdit === "subtitle"
+            }
+        },
+        // edit translation?
+        {
+            "type": "input",
+            "name": "translation",
+            "message": "Translation:",
+            "default": data["translation"],
+            "when": function (answers) {
+                return answers.valueToEdit === "translation"
+            }
+        },
+		// edit narration?
+		{
+			"type": "input",
+			"name": "narration",
+			"message": "Narración:",
+			"default": data["narration"],
+			"when": function (answers) {
+				return answers.valueToEdit === "narration"
 			}
 		},
 		// edit description?
@@ -189,6 +231,70 @@ function main(callback) {
 			"when": function (answers) {
 				return answers.valueToEdit === "source"
 			}
+		},
+		{
+			"type": "list",
+			"name": "tierAction",
+			"message": "Tier ID action:",
+			"choices": [
+				"Rename tier",
+				"Delete tier"
+			],
+			"when": function (answers) {
+				const tierCount = getTierNames().length;
+				if (answers.valueToEdit === "tier IDs" && tierCount === 0) {
+					console.log("No tier IDs available to edit.");
+				}
+				return answers.valueToEdit === "tier IDs" && tierCount > 0;
+			}
+		},
+		{
+			"type": "list",
+			"name": "selectedTier",
+			"message": "Select a tier:",
+			"choices": function () {
+				return getTierNames();
+			},
+			"when": function (answers) {
+				return answers.valueToEdit === "tier IDs" && answers["tierAction"];
+			}
+		},
+		{
+			"type": "input",
+			"name": "newTierName",
+			"message": "New tier name:",
+			"default": function (answers) {
+				return answers["selectedTier"] || "";
+			},
+			"when": function (answers) {
+				return answers.valueToEdit === "tier IDs" && answers["tierAction"] === "Rename tier" && Boolean(answers["selectedTier"]);
+			},
+			"validate": function (response, answers) {
+				if (!response || response.trim() === "") {
+					return "Tier name cannot be empty.";
+				}
+				if (response === answers["selectedTier"]) {
+					return "Please enter a different tier name.";
+				}
+				if (tierExists(response)) {
+					return "A tier with that name already exists.";
+				}
+				return true;
+			},
+			"filter": function (response) {
+				return response.trim();
+			}
+		},
+		{
+			"type": "confirm",
+			"name": "confirmTierDelete",
+			"message": function (answers) {
+				return `Delete tier "${answers["selectedTier"]}"? This cannot be undone.`;
+			},
+			"default": false,
+			"when": function (answers) {
+				return answers.valueToEdit === "tier IDs" && answers["tierAction"] === "Delete tier" && Boolean(answers["selectedTier"]);
+			}
 		}
 	]).then(function (answers) {
 		if (answers["audio"] && answers["audio"] == "blank") {
@@ -209,6 +315,15 @@ function main(callback) {
 
 		if (answers["title"]) {
 			data["title"]["_default"] = answers["title"]
+		}
+        if (answers["subtitle"]) {
+            data["subtitle"] = answers["subtitle"]
+        }
+        if (answers["translation"]) {
+            data["translation"] = answers["translation"];
+        }
+		if (answers["narration"]) {
+			data["narration"] = answers["narration"];
 		}
 
 		if (answers["genre"]) {
@@ -231,12 +346,137 @@ function main(callback) {
 			data["source"]["_default"] = answers["source"]
 		}
 
+		if (answers["tierAction"] === "Rename tier" && answers["selectedTier"] && answers["newTierName"]) {
+			renameTier(answers["selectedTier"], answers["newTierName"]);
+		}
+
+		if (answers["tierAction"] === "Delete tier" && answers["selectedTier"] && answers["confirmTierDelete"]) {
+			deleteTier(answers["selectedTier"]);
+		} else if (answers["tierAction"] === "Delete tier" && answers["selectedTier"] && !answers["confirmTierDelete"]) {
+			console.log("Tier deletion cancelled.");
+		}
+
 		callback()
 	})
 }
 
+function getTierNames() {
+	if (storyData && storyData.metadata && storyData.metadata["tier IDs"]) {
+		return Object.keys(storyData.metadata["tier IDs"]);
+	}
+	if (data && data["tier IDs"]) {
+		return Object.keys(data["tier IDs"]);
+	}
+	return [];
+}
+
+function tierExists(name) {
+	if (!name) {
+		return false;
+	}
+	const tierSources = [];
+	if (storyData && storyData.metadata && storyData.metadata["tier IDs"]) {
+		tierSources.push(storyData.metadata["tier IDs"]);
+	}
+	if (data && data["tier IDs"]) {
+		tierSources.push(data["tier IDs"]);
+	}
+	return tierSources.some((tierIDs) => Object.prototype.hasOwnProperty.call(tierIDs, name));
+}
+
+function renameTier(oldName, newName) {
+	if (!oldName || !newName || oldName === newName) {
+		return;
+	}
+
+	if (!data["tier IDs"]) {
+		data["tier IDs"] = {};
+	}
+
+	if (data["tier IDs"][oldName]) {
+		data["tier IDs"][newName] = data["tier IDs"][oldName];
+		delete data["tier IDs"][oldName];
+	}
+
+	if (!storyData) {
+		console.log("⚠️  Story JSON file missing; only index metadata updated.");
+		return;
+	}
+
+	if (storyData.metadata && storyData.metadata["tier IDs"] && storyData.metadata["tier IDs"][oldName]) {
+		storyData.metadata["tier IDs"][newName] = storyData.metadata["tier IDs"][oldName];
+		delete storyData.metadata["tier IDs"][oldName];
+	}
+
+	if (storyData.metadata && storyData.metadata["speaker IDs"]) {
+		for (const speakerID of Object.keys(storyData.metadata["speaker IDs"])) {
+			const speaker = storyData.metadata["speaker IDs"][speakerID];
+			if (speaker["tier"] === oldName) {
+				speaker["tier"] = newName;
+			}
+		}
+	}
+
+	if (storyData.sentences && Array.isArray(storyData.sentences)) {
+		for (const sentence of storyData.sentences) {
+			if (sentence["tier"] === oldName) {
+				sentence["tier"] = newName;
+			}
+			if (Array.isArray(sentence["dependents"])) {
+				for (const dep of sentence["dependents"]) {
+					if (dep["tier"] === oldName) {
+						dep["tier"] = newName;
+					}
+				}
+			}
+		}
+	}
+}
+
+function deleteTier(tierName) {
+	if (!tierName) {
+		return;
+	}
+
+	if (data["tier IDs"] && data["tier IDs"][tierName]) {
+		delete data["tier IDs"][tierName];
+	}
+
+	if (!storyData) {
+		console.log("⚠️  Story JSON file missing; tier deleted from index metadata only.");
+		return;
+	}
+
+	if (storyData.metadata && storyData.metadata["tier IDs"] && storyData.metadata["tier IDs"][tierName]) {
+		delete storyData.metadata["tier IDs"][tierName];
+	}
+
+	if (storyData.metadata && storyData.metadata["speaker IDs"]) {
+		for (const speakerID of Object.keys(storyData.metadata["speaker IDs"])) {
+			const speaker = storyData.metadata["speaker IDs"][speakerID];
+			if (speaker["tier"] === tierName) {
+				delete storyData.metadata["speaker IDs"][speakerID];
+			}
+		}
+	}
+
+	if (storyData.sentences && Array.isArray(storyData.sentences)) {
+		for (const sentence of storyData.sentences) {
+			if (sentence["tier"] === tierName) {
+				delete sentence["tier"];
+			}
+			if (Array.isArray(sentence["dependents"])) {
+				sentence["dependents"] = sentence["dependents"].filter((dep) => dep["tier"] !== tierName);
+			}
+		}
+	}
+}
+
 function update() {
 	fs.writeFileSync("data/index.json", JSON.stringify(indexObj, null, 2));
+	if (storyData && storyJsonPath) {
+		fs.writeFileSync(storyJsonPath, JSON.stringify(storyData, null, 2));
+	}
 	console.log("📤" + "  " + "Metadata edit complete.");
 	console.log("\nYou've successfully edited the metadata. However, this will not be displayed on the site until you rebuild the databases and site. (You can do both using the \"quick-build-online\" or \"quick-build-offline\" npm script; for more info: https://github.com/BrownCLPS/LingView/wiki)");
 }

@@ -37,7 +37,7 @@
     "timed": true,
     "story ID": "a164d65e-5ab7-48ce-b52d-65150a217ee8",
     "title": {
-      "_default": "STE-020_JLN_2013_Nunkui"
+      "_default": "Nunkui"
     },
     "media": {
       "audio": "STE-020_JLN_2013_Nunkui.mp3",
@@ -49,9 +49,9 @@
     "source": {
       "_default": ""
     },
-    "description": "",
+    "description": "En tiempos antiguos, los ancestros sufrían hambre hasta que una pareja (“esa mujer con su esposo”) descubrió a Nunkui (había bulla y siguiendo la bulla, encontraron a los nunkui), espíritu de la chacra, quien entregó a una niña capaz de llamar alimentos y animales al nombrarlos. Gracias a ella surgieron yuca, plátano y otras plantas que sostienen la vida. Sin embargo, cuando los niños la maltrataron y la obligaron a invocar al diablo, se desató el conflicto: la niña fue golpeada (los niños se asustaron y como se asustaron, la golpearon), huyó y terminó desapareciendo en un bambú. Desde entonces, Nunkui maldijo que solo quienes trabajan la tierra puedan alimentarse, y que la mala hierba también crezca. El relato explica el origen de los cultivos y la necesidad de respeto a Nunkui, a quien hasta hoy se invoca con cantos rituales (anen) para asegurar el alimento. El nombre nunkui se refiere tanto a un grupo de personas que se relacionan con el cultivo de plantas y la caza, como también al p",
     "genre": "",
-    "author": "",
+    "author": "Wampis",
     "glosser": "",
     "speakers": [
       "Juan Luis Noningo"
@@ -74,7 +74,9 @@
         "name": "Juan Luis Noningo",
         "tier": "Transcripción"
       }
-    }
+    },
+    "narration": "Juan Nuningo",
+    "translation": "Juan Nuningo"
   },
   "b26c7483-4a03-4702-bec2-6e893219f3f0": {
     "timed": false,
