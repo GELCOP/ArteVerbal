@@ -12,7 +12,6 @@ export function Sidebar({ metadata }) {
 	if (metadata['title']['_default'] != '') {
 		title = metadata['title']['_default'];
 	}
-	const subtitle = metadata['subtitle'] || '';
 
 	if (metadata['timed'] && metadata['media']['video'] != '') {
 		const filename = metadata['media']['video'];
@@ -21,7 +20,6 @@ export function Sidebar({ metadata }) {
 			<div id="leftPanel">
 				<Video path={path} />
 				<Title title={title} />
-				{subtitle && <p className="subtitle">{subtitle}</p>}
 				<Minibar metadata={metadata} hasVideo />
 			</div>
 		);
@@ -29,7 +27,6 @@ export function Sidebar({ metadata }) {
 		return (
 			<div id="leftPanel">
 				<Title title={title} />
-				{subtitle && <p className="subtitle">{subtitle}</p>}
 				<Minibar metadata={metadata} hasVideo={false} />
 			</div>
 		);
