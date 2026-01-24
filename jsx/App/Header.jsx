@@ -23,10 +23,13 @@ export function Header() {
           <Link to="/">
             <TranslatableText dictionary={navBarTitleText} />
           </Link>
+          <Link to="/">
+            <span id="navSubtitle">hacia un estudio del discurso narrativo oral en lenguas de la Amazonía peruana</span>
+          </Link>
         </div>
         <div id="navLinks">
-          <NavLink to="/search">
-            <TranslatableText dictionary={navBarSearchText} />
+          <NavLink to="/index">
+            <TranslatableText dictionary={navBarIndexText} />
           </NavLink>
           <NavLink to="/about">
             <TranslatableText dictionary={navBarAboutText} />
@@ -34,8 +37,8 @@ export function Header() {
           <NavLink to="/glossary">
             <TranslatableText dictionary={navBarGlossaryText} />
           </NavLink>
-          <NavLink to="/index">
-            <TranslatableText dictionary={navBarIndexText} />
+          <NavLink to="/search">
+             <TranslatableText dictionary={navBarSearchText} /> 🔍
           </NavLink>
         </div>
       </div>
