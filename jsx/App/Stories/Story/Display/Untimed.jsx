@@ -9,7 +9,6 @@ function UntimedBlock({ sentence, sentenceId, metadata }) {
 				{sentenceId}
 			</span>
 			<Sentence sentence={sentence} />
-			<LatexButton sentenceMinStart={sentenceId} sentence={sentence} metadata={metadata}/>
 		</div>
 	);
 }

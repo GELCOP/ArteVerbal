@@ -11,6 +11,18 @@ const mediaFinder = require('../find_media');
 const flexReader = require('./read_flex');
 const getTierName = require('./flex_tier_names.js').getTierName;
 
+const IGNORED_TIER_TYPES = new Set([
+  "variantTypes",
+  "hn",
+  "glsAppend",
+  "msa"
+]);
+
+const IGNORED_TIER_COMBOS = [
+  { type: "words", lang: "ura" },
+  { type: "words", lang: "cni" }
+];
+
 // punct - a string
 // return a boolean indicating whether 'punct' should typically appear 
 //   preceded by a space, but not followed by a space, in text
@@ -40,15 +52,24 @@ function isPunctuation(word) {
   return false; 
 }
 
-function isIgnored(tierType) {
-  // Omit these tier types from the website, because they're ugly and mostly useless.
-  // See flex_tier_names.js for an explanation of these types
-  return (
-      tierType === "variantTypes" ||
-      tierType === "hn" ||
-      tierType === "glsAppend" ||
-      tierType === "msa"
+function normalizeLangCode(lang) {
+  return (lang || "").toLowerCase();
+}
+
+function matchesIgnoredCombo(tierType, tierLang) {
+  const normalizedLang = normalizeLangCode(tierLang);
+  return IGNORED_TIER_COMBOS.some((combo) =>
+    combo.type === tierType && normalizeLangCode(combo.lang) === normalizedLang
   );
+}
+
+function isIgnored(tierType, tierLang) {
+  // Omit these tier types from the website, either because they're useless
+  // or because specific language/tier combinations should be hidden.
+  if (IGNORED_TIER_TYPES.has(tierType)) {
+    return true;
+  }
+  return matchesIgnoredCombo(tierType, tierLang);
 }
 
 // metadata - a metadata object
@@ -180,20 +201,23 @@ function repackageMorphs(morphs, tierReg, startSlot) {
   for (const morph of morphs) {
     for (const tier of flexReader.getTiers(morph)) {
       const tierType = flexReader.getTierType(tier);
-      if (!isIgnored(tierType)) {
-        const tierName = getTierName(flexReader.getTierLang(tier), tierType);
-        tierReg.registerTier(tierName, true);
-        if (tierName != null) {
-          if (!morphTokens.hasOwnProperty(tierName)) {
-            morphTokens[tierName] = {};
-          }
-          morphTokens[tierName][slotNum] = {
-            "value": flexReader.getTierValue(tier),
-            "tier type": flexReader.getTierType(tier),
-            "part of speech": flexReader.getMorphPartOfSpeech(morph),
-          };
-        }
+      const tierLang = flexReader.getTierLang(tier);
+      if (isIgnored(tierType, tierLang)) {
+        continue;
       }
+      const tierName = getTierName(tierLang, tierType);
+      if (tierName == null) {
+        continue;
+      }
+      tierReg.registerTier(tierName, true);
+      if (!morphTokens.hasOwnProperty(tierName)) {
+        morphTokens[tierName] = {};
+      }
+      morphTokens[tierName][slotNum] = {
+        "value": flexReader.getTierValue(tier),
+        "tier type": flexReader.getTierType(tier),
+        "part of speech": flexReader.getMorphPartOfSpeech(morph),
+      };
     }
     slotNum++;
   }
@@ -243,17 +267,22 @@ function repackageFreeGlosses(freeGlosses, tierReg, endSlot) {
   const glossStartSlot = 0;
   const morphsJson = {};
   for (const gloss of freeGlosses) {
-    const tierName = getTierName(flexReader.getFreeGlossLang(gloss), "free");
-    tierReg.registerTier(tierName, false);
-    if (tierName != null) {
-      if (!morphsJson.hasOwnProperty(tierName)) {
-        morphsJson[tierName] = {};
-      }
-      morphsJson[tierName][glossStartSlot] = {
-        "value": flexReader.getFreeGlossValue(gloss),
-        "end_slot": endSlot
-      };
+    const tierLang = flexReader.getFreeGlossLang(gloss);
+    if (isIgnored("free", tierLang)) {
+      continue;
     }
+    const tierName = getTierName(tierLang, "free");
+    if (tierName == null) {
+      continue;
+    }
+    tierReg.registerTier(tierName, false);
+    if (!morphsJson.hasOwnProperty(tierName)) {
+      morphsJson[tierName] = {};
+    }
+    morphsJson[tierName][glossStartSlot] = {
+      "value": flexReader.getFreeGlossValue(gloss),
+      "end_slot": endSlot
+    };
   }
   return morphsJson;
 }
@@ -268,7 +297,9 @@ function repackageFreeGlosses(freeGlosses, tierReg, endSlot) {
 //   structured correctly for use by the website
 function getSentenceJson(sentence, speakerReg, tierReg, wordsTierID, hasTimestamps, sentenceCounter) {
   const morphsJson = {}; // tierName -> start_slot -> {"value": value, "end_slot": end_slot}
-  morphsJson[wordsTierID] = {}; // FIXME words tier will show up even when the sentence is empty of words
+  if (wordsTierID != null) {
+    morphsJson[wordsTierID] = {}; // FIXME words tier will show up even when the sentence is empty of words
+  }
 
   let slotNum = 0;
   const sentenceTokens = []; // for building the free transcription
@@ -286,7 +317,7 @@ function getSentenceJson(sentence, speakerReg, tierReg, wordsTierID, hasTimestam
     }
 
     // deal with the word itself
-    if (!isPunctuation(word)) {
+    if (!isPunctuation(word) && wordsTierID != null) {
       // count this as a separate word on the words tier
       morphsJson[wordsTierID][wordStartSlot] = {
         "value": flexReader.getWordValue(word),
@@ -352,8 +383,11 @@ function preprocessText(jsonIn, jsonFilesDir, fileName, callback) {
 
   let textLang = flexReader.getDocumentSourceLang(jsonIn);
   const tierReg = new tierRegistry();
-  const wordsTierName = getTierName(textLang, "words");
-  tierReg.registerTier(wordsTierName, true);
+  const hideWordsTier = isIgnored("words", textLang);
+  const wordsTierName = hideWordsTier ? null : getTierName(textLang, "words");
+  if (wordsTierName != null) {
+    tierReg.registerTier(wordsTierName, true);
+  }
 
   const hasTimestamps = flexReader.documentHasTimestamps(jsonIn);
 
@@ -397,17 +431,6 @@ function preprocessText(jsonIn, jsonFilesDir, fileName, callback) {
 //   then executes the callback, passing the list of all story IDs that were processed
 //   as an argument to the callback function. 
 function preprocessDir(xmlFilesDir, jsonFilesDir, callback) {
-  // Check if directory exists, if not return empty result
-  if (!fs.existsSync(xmlFilesDir)) {
-    console.log(`Directory ${xmlFilesDir} does not exist, skipping FLEx preprocessing.`);
-    callback({
-      numJobs: 0,
-      storyIDs: [],
-      storyID2Name: {}
-    });
-    return;
-  }
-  
   const xmlFileNames = fs.readdirSync(xmlFilesDir).filter(f => f[0] !== '.'); // excludes hidden files
 
   // use this to wait for all preprocess calls to terminate before executing the callback

@@ -28,10 +28,7 @@
     "xml_file_name": "akanu.xml",
     "source_filetype": "FLEx",
     "tier IDs": {
-      "palabra en اردو": {
-        "subdivided": true
-      },
-      "frase en Español": {
+      "Traducción": {
         "subdivided": false
       }
     }
@@ -107,10 +104,7 @@
     "xml_file_name": "asha1.xml",
     "source_filetype": "FLEx",
     "tier IDs": {
-      "palabra en cni": {
-        "subdivided": true
-      },
-      "frase en Español": {
+      "Traducción": {
         "subdivided": false
       }
     }
@@ -144,13 +138,10 @@
     "xml_file_name": "ela.xml",
     "source_filetype": "FLEx",
     "tier IDs": {
-      "palabra en اردو": {
-        "subdivided": true
-      },
-      "frase en Español": {
+      "Traducción": {
         "subdivided": false
       },
-      "frase en inglés": {
+      "Notas": {
         "subdivided": false
       }
     }
@@ -184,10 +175,7 @@
     "xml_file_name": "rana nekauauna.xml",
     "source_filetype": "FLEx",
     "tier IDs": {
-      "palabra en اردو": {
-        "subdivided": true
-      },
-      "frase en Español": {
+      "Traducción": {
         "subdivided": false
       }
     }

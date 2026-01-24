@@ -58,6 +58,9 @@ function decodeLang(lang) {
       return "a'ingae (ortografía nueva)";
     case "defaultLang":
       return "defaultLang";
+    case "ura":
+    case "URA":
+      return "urarina";
 
     // for Spanish UI text:
     case "en":
@@ -92,11 +95,21 @@ function decodeLang(lang) {
 // some features (specifically, showing/hiding tiers and narrowing the search 
 // results via checkboxes) will work incorrectly. 
 function getTierName(lang, type) {
+  const decodedType = decodeType(type);
+  const decodedLang = decodeLang(lang);
+  const normalizedType = decodedType.toLowerCase();
+  const normalizedLang = decodedLang.toLowerCase();
+  if (normalizedType === "frase" && normalizedLang === "español") {
+    return "Traducción";
+  }
+  if (normalizedType === "frase" && normalizedLang === "inglés") {
+    return "Notas";
+  }
   // English UI text:
   // return decodeLang(lang) + " " + decodeType(type);
 
   // Spanish UI text:
-  return decodeType(type) + " en " + decodeLang(lang);
+  return decodedType + " en " + decodedLang;
 }
 
 module.exports = {
