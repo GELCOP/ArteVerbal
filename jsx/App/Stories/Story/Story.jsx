@@ -23,6 +23,35 @@ export class Story extends React.Component {
         }
     }
 
+    componentDidUpdate(prevProps, prevState) {
+        // Update browser title when story is loaded
+        if (this.state.story && !prevState.story) {
+            this.updateDocumentTitle();
+        }
+        // Update title if story ID changes
+        if (this.props.storyID !== prevProps.storyID && this.state.story) {
+            this.updateDocumentTitle();
+        }
+    }
+
+    componentWillUnmount() {
+        // Reset to default title when leaving story page
+        document.title = 'Arte Verbal';
+    }
+
+    updateDocumentTitle() {
+        if (!this.state.story) return;
+        
+        const metadata = this.state.story['metadata'];
+        let title = metadata['title']['con-Latn-EC'];
+        if (metadata['title']['_default'] != '') {
+            title = metadata['title']['_default'];
+        }
+        
+        // Update browser title: "Story Title - Arte Verbal"
+        document.title = `${title} - Arte Verbal`;
+    }
+
     render() {
         if (!this.state.story) {
             return <Loader />;
