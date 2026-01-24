@@ -17,19 +17,14 @@ function LabeledSentence({ sentence }) {
 }
 
 function TimeBlock({ sentences, metadata, minStart }) {
-	// I/P: sentences, a list of sentences with the same start time
-	// O/P: div containing multiple LabeledSentences
-	// Status: tested, working
 	let output = [];
-	// A timeblock may contain multiple sentences with the same start time.
-	// Iterate through the list of these sentences and create a LabeledSentence block 
-	// as well as a LaTeX button for this block.
 	for (const sentence of sentences) {
 		output.push(<LabeledSentence key={id.generate()} sentence={sentence} />);
-		output.push(<LatexButton sentenceMinStart={minStart} sentence={sentence} metadata={metadata}/>);
+		// Removed LatexButton here
 	}
 	return <div className="timeBlock">{output}</div>;
 }
+
 
 function printSeconds(r) {
 	// I/P: an integer number of seconds
