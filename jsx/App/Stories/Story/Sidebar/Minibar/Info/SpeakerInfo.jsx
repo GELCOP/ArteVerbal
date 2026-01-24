@@ -16,11 +16,7 @@ export function SpeakerInfo({ speakers }) {
 				speaker_list.push(<li key={id.generate()}>{speaker_display}</li>);
 			}
 	 	}
-		return (
-			<div id="speakerList">
-				<TranslatableText dictionary={metadataSpeakersText} />: <ul>{speaker_list}</ul>
-			</div>
-		);
+		return null;
 	} else {
 		return null;
 	}

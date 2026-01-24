@@ -6,7 +6,10 @@ export function Metadata({ metadata }) {
 	// O/P: a nice display of speaker names + other metadata
 	// Status: finished
 	let description = null;
+	let translation = null;
+	let narration = null;
 	let author = null;
+	let subtitle = null;
 	let genre = null;
 	let date_created = null;
 
@@ -14,8 +17,21 @@ export function Metadata({ metadata }) {
 		description = <p><b><TranslatableText dictionary={metadataDescriptionText} />:</b> {metadata["description"]}</p>;
 	}
 
+	if (metadata["translation"] != "") {
+		translation = <p><b>Traducción:</b> {metadata["translation"]}</p>;
+	}
+
+	if (metadata["narration"] != "") {
+		// Label in Spanish
+		narration = <p><b>Narración:</b> {metadata["narration"]}</p>;
+	}
+
 	if (metadata["author"] != "") {
 		author = <p><TranslatableText dictionary={metadataAuthorText} />: {metadata["author"]}</p>;
+	}
+
+	if (metadata["subtitle"] != "") {
+		subtitle = <p><b>Subtítulo:</b> {metadata["subtitle"]}</p>;
 	}
 
 	if (metadata["genre"] != "") {
@@ -29,7 +45,10 @@ export function Metadata({ metadata }) {
 	return (
 		<div id="metadata">
 			{description}
-			{author}
+			{narration}
+			{translation}
+			{genre}
+			{date_created}
 		</div>
 	);
 }
