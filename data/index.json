@@ -153,7 +153,7 @@
     "story ID": "5fb235a3-c564-4e02-86bb-ff2996b2049a",
     "title": {
       "ura": "Rana nekuaüna",
-      "_default": "rana nekauauna"
+      "_default": "Rana nekuaüna"
     },
     "media": {
       "audio": "",
@@ -169,9 +169,9 @@
     "source": {
       "_default": ""
     },
-    "description": "",
+    "description": "Este relato, que forma parte de la tradición oral del pueblo urarina, nos cuenta la historia del origen de la huangana, uno de los animales más preciados por este pueblo por su carne. La historia nos narra cómo kana kuaünera, antiguamente, convirtió a un grupo de gente en una manada de huanganas, y las destinó a habitar así en este mundo, tal como las conocemos ahora. El narrador de esta historia es Demetrio Macusi de la Comunidad de Nuevo Porvenir, del río Corrientes.",
     "genre": "",
-    "author": "",
+    "author": "Urarina",
     "glosser": "",
     "speakers": [],
     "xml_file_name": "rana nekauauna.xml",
@@ -180,6 +180,9 @@
       "Traducción": {
         "subdivided": false
       }
-    }
+    },
+    "subtitle": "Creación de la huangana",
+    "narration": "Demetrio Macusi Vela",
+    "translation": "Demetrio Macusi Vela"
   }
 }
