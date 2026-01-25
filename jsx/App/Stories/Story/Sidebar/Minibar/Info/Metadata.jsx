@@ -1,4 +1,4 @@
-import { metadataDescriptionText, metadataAuthorText, metadataGenreText, metadataDateText, metadataGlosserText, metadataSourceText } from '~./jsx/App/locale/LocaleConstants.jsx';
+import { metadataDescriptionText, metadataAuthorText, metadataGenreText, metadataDateText, metadataGlosserText, metadataSourceText, metadataTranslationText, metadataNarrationText, metadataSubtitleText } from '~./jsx/App/locale/LocaleConstants.jsx';
 import { TranslatableText } from '~./jsx/App/locale/TranslatableText.jsx'
 
 export function Metadata({ metadata }) {
@@ -18,12 +18,12 @@ export function Metadata({ metadata }) {
 	}
 
 	if (metadata["translation"] != "") {
-		translation = <p><b>Traducción:</b> {metadata["translation"]}</p>;
+		translation = <p><b><TranslatableText dictionary={metadataTranslationText} />:</b> {metadata["translation"]}</p>;
 	}
 
 	if (metadata["narration"] != "") {
 		// Label in Spanish
-		narration = <p><b>Narración:</b> {metadata["narration"]}</p>;
+		narration = <p><b><TranslatableText dictionary={metadataNarrationText} />:</b> {metadata["narration"]}</p>;
 	}
 
 	if (metadata["author"] != "") {
@@ -31,7 +31,7 @@ export function Metadata({ metadata }) {
 	}
 
 	if (metadata["subtitle"] != "") {
-		subtitle = <p><b>Subtítulo:</b> {metadata["subtitle"]}</p>;
+		subtitle = <p><b><TranslatableText dictionary={metadataSubtitleText} />:</b> {metadata["subtitle"]}</p>;
 	}
 
 	if (metadata["genre"] != "") {

@@ -122,6 +122,21 @@ export const metadataGenreText = {
   [ESPANOL] : "Género",
 };
 
+export const metadataTranslationText = {
+  [ENGLISH] : "Translation",
+  [ESPANOL] : "Traducción",
+};
+
+export const metadataNarrationText = {
+  [ENGLISH] : "Narration",
+  [ESPANOL] : "Narración",
+};
+
+export const metadataSubtitleText = {
+  [ENGLISH] : "Subtitle",
+  [ESPANOL] : "Subtítulo",
+};
+
 export const metadataGlosserText = {
   [ENGLISH] : "Glosser",
   [ESPANOL] : "Glosador",
