@@ -72,6 +72,18 @@ export class Search extends React.Component {
         return authors;
     }
 
+    handleAuthorChange(e) {
+        const checkedAuthors = [];
+        document.getElementsByName("authors").forEach(function (el) {
+            if (el.checked) checkedAuthors.push(el);
+        });
+        if (!e.target.checked && checkedAuthors.length === 0) {
+            e.target.checked = true; // keep at least one author active
+            return;
+        }
+        this.search();
+    }
+
     search(rebuild=true) {
         if (rebuild || !this.fuse) this.fuse = this.build_fuse();
         let input = document.getElementById("searchInput");
@@ -131,7 +143,7 @@ export class Search extends React.Component {
         authors.forEach((author) => {
             const id = `author-${author}`;
             checkboxes.push(
-                <input id={id} name="authors" value={author} type="checkbox" onChange={this.search.bind(this)}
+                <input id={id} name="authors" value={author} type="checkbox" onChange={this.handleAuthorChange.bind(this)}
                 defaultChecked />
             );
             checkboxes.push(<label>{author}</label>);
