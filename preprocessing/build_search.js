@@ -10,10 +10,17 @@ function buildSearch(jsonFileNames) {
         const f = require(path.resolve(__dirname, '../' + jsonPath));
         const storyID = f.metadata["story ID"];
         const title = f.metadata["title"]["_default"];
+        const rawAuthor = f.metadata ? f.metadata["author"] : null;
+        const author = Array.isArray(rawAuthor)
+          ? rawAuthor.filter(Boolean).join(', ')
+          : (rawAuthor && typeof rawAuthor === 'object' && rawAuthor["_default"])
+            ? rawAuthor["_default"]
+            : rawAuthor;
         const newSentences = f["sentences"];
         for (sentence in newSentences) {
             newSentences[sentence]["story ID"] = storyID;
             newSentences[sentence]["title"] = title;
+            newSentences[sentence]["author"] = author;
         }
         sentences = sentences.concat(newSentences);
     }
@@ -26,6 +33,7 @@ function buildSearch(jsonFileNames) {
           "text" : sentence["text"],
           "story ID" : sentence["story ID"],
           "title" : sentence["title"],
+          "author" : sentence["author"],
           "start_time_ms" : sentence["start_time_ms"],
           "sentence_id" : sentence["sentence_id"], 
           "dependents" : {}
@@ -36,6 +44,12 @@ function buildSearch(jsonFileNames) {
         if (topTierName != null) {
             tierNames.add(topTierName);
             reformatted["dependents"][topTierName] = {"value": sentence.text};
+        }
+
+        const author = sentence["author"];
+        if (author != null && author !== '') {
+            tierNames.add("Author");
+            reformatted["dependents"]["Author"] = {"value": author};
         }
         
         for (const tier of sentence["dependents"]) {

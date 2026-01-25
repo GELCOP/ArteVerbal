@@ -64,6 +64,14 @@ export class Search extends React.Component {
         return new Fuse(this.state.searchIndex.sentences, options)
     }
 
+    getSelectedAuthors() {
+        let authors = [];
+        document.getElementsByName("authors").forEach(function (e) {
+            if (e.checked) authors.push(e.value);
+        });
+        return authors;
+    }
+
     search(rebuild=true) {
         if (rebuild || !this.fuse) this.fuse = this.build_fuse();
         let input = document.getElementById("searchInput");
@@ -73,9 +81,14 @@ export class Search extends React.Component {
             return;
         }
         let searchResult = this.fuse.search(query); 
+        const selectedAuthors = this.getSelectedAuthors();
         let searchResults = [];
         for (var i = 0, j = searchResult.length; i < j; i++) {
             const item = searchResult[i].item;
+            const itemAuthor = item.author || (item.dependents && item.dependents.Author ? item.dependents.Author.value : null);
+            if (selectedAuthors.length > 0 && !selectedAuthors.includes(itemAuthor)) {
+                continue;
+            }
             const hasSpeaker = ('speaker' in item);
             let component = (
                 <SearchSentence
@@ -97,6 +110,7 @@ export class Search extends React.Component {
         let checkboxes = [];
         let tiers = this.state.searchIndex['tier IDs'];
         tiers.forEach((tier) => {
+            if (tier === "Author") return;
             checkboxes.push(
                 <input id={tier} name="fields" type="checkbox" onChange={this.search.bind(this)}
                 defaultChecked />
@@ -105,6 +119,25 @@ export class Search extends React.Component {
             checkboxes.push(<span>&nbsp;&nbsp;</span>);
         })
         return checkboxes
+    }
+
+    genAuthorCheckboxes () { // called by render()
+        const authorSet = new Set();
+        this.state.searchIndex.sentences.forEach((sentence) => {
+            if (sentence.author) authorSet.add(sentence.author);
+        });
+        const authors = Array.from(authorSet).sort();
+        let checkboxes = [];
+        authors.forEach((author) => {
+            const id = `author-${author}`;
+            checkboxes.push(
+                <input id={id} name="authors" value={author} type="checkbox" onChange={this.search.bind(this)}
+                defaultChecked />
+            );
+            checkboxes.push(<label>{author}</label>);
+            checkboxes.push(<span>&nbsp;&nbsp;</span>);
+        });
+        return checkboxes;
     }
 
     goToNextSearchPage() {
@@ -125,6 +158,8 @@ export class Search extends React.Component {
         return (
             <div id="searchForm">
                 <label for="searchInput"><TranslatableText dictionary={searchPagePromptText} /></label> <input id="searchInput" onChange={this.handleInputChange.bind(this)} type="text" />
+                <br />
+                {this.genAuthorCheckboxes()}
                 <br />
                 {this.genCheckboxes()}
                 <br />
