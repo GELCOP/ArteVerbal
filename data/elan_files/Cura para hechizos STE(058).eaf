@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2025-11-18T21:33:15-05:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///Users/hosuenuez/Documents/Programación/GELCOP/Webapp_narraciones/Audios y Copia de ELAN/Wampis/Wampis 4_Cura para hechizos/STE-058.wav"
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../Audios y Copia de ELAN/Wampis/Wampis 4_Cura para hechizos/STE-058.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:216c1a96-9611-4032-9f3d-f9854c342d16</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">101</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="5260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="5450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="9090"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="10020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="12610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="14110"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="23000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="23400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="26690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="29310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="38600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="40080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="44040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="44170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="46820"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="47440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="51400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="52079"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="53136"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="54897"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="61261"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="63636"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="70329"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="70420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="75147"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="75318"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="77727"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="77761"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="79170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="79749"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="81011"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="81886"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="84624"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="85147"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="89590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="90590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="93568"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="94874"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="99056"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="99522"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="101443"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="101920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="104795"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="106102"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="108715"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="109397"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="111806"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="112590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="117079"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="119534"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="125363"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="126446"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="128556"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="128930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="132850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="133040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="134990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="135860"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="141470"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="142250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="144930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="145050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="147560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="148530"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="152350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="152800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="154070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="154170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="159830"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="160310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="162310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="162950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="166690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="168630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="173710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="173770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="175370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="175990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="177460"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="177680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="180280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="180640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="181980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="182680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="185230"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="186800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="191820"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="192720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="194290"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="194430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="198310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="199420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="201220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="201220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="203280"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="JP"
+        LINGUISTIC_TYPE_REF="OJ_PO (Practical Ortography)"
+        PARTICIPANT="O.J." TIER_ID="Transcripción">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>tikichin aujmattsatjai jaakur tsuamatai
+</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>iwishin wawetamtaisha itur tsuamamainkit nuna aujmattsattajai</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>shipibo jintintruawarmiayi nunasha</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>ayu wi wiña yaaktaruin Kandungos jata senchi awai</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>yaunchukka nukap iwishin matsamiarmiayi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>wawekratin aiña jata akuisha esekartuiña, esekartusha ataksha jaamu senchi au</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>nuniakui wi enentaimsamiajai uruk tsuamaiñawak nuna</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>urukamtai tiarmaki tusan wi kame</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>wisha nekapsamiajai  nuka suamataiñaiti</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>impijanim</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>tikeña, sunkip¹, jima, timu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>nu juukar tsuamataiñaiti</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>etsa wa junini etsa aka atuni awataiñaiti impijanimka</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>tura seapesha metekak achi nutiktaiñaiti tak?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15"
+                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>takataiyaiti nuka</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16"
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>nutikar takasar</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>kame, urukar mash itar</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18"
+                TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>painkiar shuar jaak, nu tuin najaima nui</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19"
+                TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>kayuttiñaiti ollajai ekenkar pujursar</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>mukuinturijai shiir kañu kañu emajsatin</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>turam shir jastinka shir jawai</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22"
+                TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>antsu sunkurjai nuniaka wamak shir jatsui</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23"
+                TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>wake najaima, muuke najaima</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24"
+                TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>mesekranum shuara karamea
+</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25"
+                TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>shuar waikiña mesekranam jata nekapu
+</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26"
+                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>tikich najaima iñashinkesha shir senchi najaimawai, tuin najaimamainiti nunin akuinka nui</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27"
+                TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>wi nekajai, wiña untur janinsamiayi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28"
+                TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>wi imaiya Pucallpanmaya ta pujai shir senchi ja taruamiajai</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29"
+                TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>jakatin auka wi atsakainka</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30"
+                TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>nutikan, nuna wi nekaspapita tajai nujai tsuaru asan</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31"
+                TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>nuka aujmattsashmau, nekas nu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32"
+                TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>wi nekajai nunakan takusan</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33"
+                TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>nutikakun tsuarmiajai wia utur jan</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34"
+                TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>shiir jasmiayi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35"
+                TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>yakai najaima, arumka tsawarchattajai, jaajai tusa turutmiayi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36"
+                TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>nutikamu kashik wena</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37"
+                TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>nuna puarijai yakaran shiir emasmiajai, impijanmijai</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38"
+                TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>nuwaiti yamai nukap takaj nuka ai, kame wi nujai tsuakrateaji nunasha</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a39"
+                TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>nuka iwishnumatchauwaiti</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40"
+                TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>nuka tsuakratjai ayatek</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41"
+                TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>ayatek nitancha, tikich shuar aiñancha ujaiñajai</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a42"
+                TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts84">
+                <ANNOTATION_VALUE>nu juuka kayumakta</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43"
+                TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>turakum shiir pujustatme tusan tuiñajai
+</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44"
+                TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE>iiña yaaktarinka atuninka shuar eak yuattsa wakera nunuja kajeraiñawai</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45"
+                TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>takancha kajerawai</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46"
+                TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE>tumakainka nu juki juukar kayumakar penker janeawai</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47"
+                TIME_SLOT_REF1="ts93" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>nuchikiti yatsuru</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a48"
+                TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts96">
+                <ANNOTATION_VALUE>ii tsuamasa nunisa pujaj nuka</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="JP"
+        LINGUISTIC_TYPE_REF="OJ_LT (Literal Transcription)"
+        PARENT_REF="Transcripción" PARTICIPANT="O.J." TIER_ID="Traducción">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a52" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Voy a contar otro sobre las curaciones que se hace cuando se está enfermo.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a53" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>¿Cómo nos podemos curar cuando un brujo te hace daño?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a54" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Shipibos me eseñaron esto.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a55" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Yya, en mi pueblo, Kantungos, hay mucha enfermedad.
+</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a56" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Aantiguamente, vivían muchos brujos,
+</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a57" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>los que hacían daño. Y, cuando nos enfermábamos, nos curaban, pero, pese a curaciones, había mucha enfermedad.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a58" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Por eso, yo pensé en ¿cómo se curan?,
+</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a59" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>¿cómo habrán dicho [para que se curen]?, me digo yo.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Yo también lo probé.  Eso se cura</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a61" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>con impijanim, </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>tikeña, sunkip , ají, barbasco.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a63" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Se junta todo eso y se cura.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a64" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Por donde sale el sol y por donde baja, se hace la corteza del impijanim.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Y su corteza también se saca de la misma manera.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a66" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Así se trabaja eso.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Así trabajando, [se refiere a la acción de sacar la corteza]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a68" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>abriendo todo, se trae.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Se hierve y la persona enferma, dónde le duele,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a70" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>se le da el baño a vapor, luego de hervir en una olla</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>con el humo. Se da el baño a vapor bien</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a72" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>y los que se van a sanar, se sanan.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>Si está mal de una enfermedad [que no es brujería], no se sana rápido:</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>le duele el estómago, la cabeza,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>en el sueño se le aparece la persona</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a76" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>le fastidian las personas,  se siente enfermo;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a77" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>otro es el dolor fuerte de su cuerpo, dónde le puede doler ahí.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a78" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>Yo sé, porque mi padre casi se muere.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a79" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>Cuando había llegado de Pucallpa, lo encontré grave de salud.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a80" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>Si no estaba yo, se moría.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a81" ANNOTATION_REF="a30">
+                <ANNOTATION_VALUE>Entonces, por eso digo, que eso es cierto porque yo le curé con eso.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a82" ANNOTATION_REF="a31">
+                <ANNOTATION_VALUE>Eso no es un cuento, es cierto.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a83" ANNOTATION_REF="a32">
+                <ANNOTATION_VALUE>Yo sé bien esto;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a84" ANNOTATION_REF="a33">
+                <ANNOTATION_VALUE>así curé a mi padre que estaba enfermo.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a85" ANNOTATION_REF="a34">
+                <ANNOTATION_VALUE>Se había sanado.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a86" ANNOTATION_REF="a35">
+                <ANNOTATION_VALUE>Le dolía el hombro, “no voy a amanecer, estoy enfermo”, dicendo me había dicho.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a87" ANNOTATION_REF="a36">
+                <ANNOTATION_VALUE>Entonces, me fui muy temprano.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a88" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>Con su resina lo froté² y lo sané, con el impijanim.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a89" ANNOTATION_REF="a38">
+                <ANNOTATION_VALUE>Eso es, con eso trabajamos mucho allá, yo también curo con eso.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a90" ANNOTATION_REF="a39">
+                <ANNOTATION_VALUE>Eso no es para convertirse en brujo;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a91" ANNOTATION_REF="a40">
+                <ANNOTATION_VALUE>eso es solo para hacer curaciones.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a92" ANNOTATION_REF="a41">
+                <ANNOTATION_VALUE>Y, así, les aviso a otras personas también:</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a93" ANNOTATION_REF="a42">
+                <ANNOTATION_VALUE>“Junta eso y hazte el baño a vapor;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a94" ANNOTATION_REF="a43">
+                <ANNOTATION_VALUE>así vas a vivir bien”, les digo.
+</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a95" ANNOTATION_REF="a44">
+                <ANNOTATION_VALUE>En nuestro pueblo, a la persona que quiere mitayar lo odian.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a96" ANNOTATION_REF="a45">
+                <ANNOTATION_VALUE>A los que trabajan, también lo odian.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a97" ANNOTATION_REF="a46">
+                <ANNOTATION_VALUE>Ccuando sucede eso, se junta eso y se toma un baño a vapor y se cura.
+</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a98" ANNOTATION_REF="a47">
+                <ANNOTATION_VALUE>Esito nomás es, hermano.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a99" ANNOTATION_REF="a48">
+                <ANNOTATION_VALUE>Lo que nosotros curándonos, así vivimos.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="JP"
+        LINGUISTIC_TYPE_REF="OJ_FT (Free Transcription)"
+        PARENT_REF="Transcripción" PARTICIPANT="O.J. " TIER_ID="Notas">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a100" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>¹ &#x1d62a;&#x1d62e;&#x1d631;&#x1d62a;&#x1d62b;&#x1d622;&#x1d62f;&#x1d62a;&#x1d62e;, &#x1d635;&#x1d62a;&#x1d62c;&#x1d626;ñ&#x1d622;, &#x1d634;&#x1d636;&#x1d62f;&#x1d62c;&#x1d62a;&#x1d631;: plantas medicinales</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a101" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>² Es decir, con la resina del impijanim lo frotó.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="OJ_PO (Practical Ortography)" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="OJ_LT (Literal Transcription)" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="OJ_FT (Free Transcription)" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

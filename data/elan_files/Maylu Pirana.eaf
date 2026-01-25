@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2025-11-17T22:46:47-05:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///Users/hosuenuez/Documents/Programación/GELCOP/Webapp_narraciones/LingView/data/media_files/Maylu pirana.wav"
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../media_files/Maylu pirana.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:5aa4095a-b737-47d8-b5f2-b3b01d351054</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">78</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="470"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="4660"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="4980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="7730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="7959"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="15129"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="16447"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="30145"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="31010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="48343"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="50260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="58740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="60027"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="66532"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="67054"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="73299"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="73870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="77070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="77340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="84450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="84727"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="88025"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="88357"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="99954"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="102672"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="108163"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="109131"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="118016"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="118344"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="123377"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="123729"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="129791"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="130302"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="139489"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="139645"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="143718"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="143958"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="150458"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="150999"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="155812"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="155854"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="159239"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="159520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="166697"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="167187"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="172343"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="172864"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="176249"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="176416"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="183645"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="184437"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="188364"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="Adriano Ingunza" LINGUISTIC_TYPE_REF="default-lt"
+        PARTICIPANT="Rittma Urquía" TIER_ID="Transcripción">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Muchikaygima maylunni yinkakgimananitkani.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>Wanna gapka gimnitkana kapawalenni.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>Yagini pagoni gimatka, xripigima wa chowgu mtianatkanu wagipawna.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>Waneklu gima maylunitka wagerotgima nikanatanatkana gi gima wa gipnachri  jimkaluru nikanatatkana wa xripi gimni wa chowgumtyana wa chichmero. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>Giyagnimatkani wa xripitka satu wa gagmuna tsru gagmungitsrukananu wa giprigachrinatka wane gima wa tkaspukmeromtlu wa chichmero, wale gima gakpa gatka.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>Wa pagonimatkani satu kgiyolikaklergima wa giyolika jemgimamtlu wa chichmero.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE> Chijjj chij chijj chi chijj chingimanata.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>Ya klunernige chingimata wane gima yatka rontapgimata. Kakmrukmerlegimatanaralga gimatana. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>Gaa tyetkani ga chijj chingimata.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>Chichi ktani chingimata gimakgimakni china gimatyawaka wale gimaki giwakatlu chichi. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>Chichmero giyagni chichmeroktani chingimata.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a42"
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>Giyagni satokatka wale gima gike gimatka wa waletka wa ruyolikgimatatka klujta mchira gimni chkotungimni wa rutjita. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>Koshpagimatlo wa mchiranshigima rustaka tonshi gima yagotjimlegimatlo.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>Wane gima rawyatkalu nikgimatlu ponikotaa rixa ga kigleruktani watye chichi nanikanutkalu nomole nyegi chingimata ranikmergimatatkalu. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a51"
+                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>Rutspegimtapana ramtaklewgimamtanatnaka walegimako satokanatatnaka.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52"
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>Wane gima rawapmerotatnaka jemgimatatnaklu chichi chichi chichi chichjjj. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a54"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>Rasukgimananumtatnaka chichi chichi chichi ralgimamtaatnaka rutspegimamtaatnakara gimamtyatnakgigima. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a57"
+                TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>Wale gimako satokanatatnaka kayitgimatanatka.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a58"
+                TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>Giyangimi wane gima china gaa giwanepotunanni giwa tyekatpje nwapanutkalu chingimata. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a59"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>Wale gimajo gwapatnaklu chicmero raskujimamta sato kgimatatnaka chichi chichi chichi. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a60"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>Kaspuklewgimamtanatka wane gima retyatkana wugenene. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a61"
+                TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>Makgimakta ¡Gaa papá chichmerotka ranikapka chingimata! gaga wale giwakno rushigkapgimatkoxatkalu wale. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a62"
+                TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>Walekni chichmero chingimata giyagni wane gima yoshikyatkaluna.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a69"
+                TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>Wa yagotgimatatkaluna. 
+</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a73"
+                TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>Wa satu kayinre gima wa jimatkana punikpotgimlu waneklu gima rumtatkaluna yine wa chichmero. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a74"
+                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>Wanepje nshi nika walepje. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="Adriano Ingunza"
+        LINGUISTIC_TYPE_REF="association-lt" PARENT_REF="Transcripción"
+        PARTICIPANT="Rittma Urquía" TIER_ID="Traducción">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a5" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Antiguamente, los gallinazos eran humanos.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a6" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>Ellos primero conocieron el fuego.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a7" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Un día, vino un lorito de pico negro a robarles sus candelas. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Desde esa vez, los gallinazos comieron carne cruda, ya no asada. El lorito pedrillo es el que les robó su candela. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a16" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Entonces, el lorito pedrillo soltó la candela en un árbol grande, seco. Ahí soltó su candela y eso empezó a arder. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a20" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Un día, un mitayero se fue a cazar y escuchó la candela. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a24" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>Sonaba chijjj, chij, chij.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a30" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>“¿Qué será?”, dijo el hombre, quien se acercó a mirar. Tocó la candela y se quemó bien fuerte. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a31" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>“¡Ah! Esto es lo que suena así”, dijo. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a34" ANNOTATION_REF="a33">
+                <ANNOTATION_VALUE>“Entonces, su nombre es chichi”, dijo el hombre. A lo que sonaba le puso el nombre de “chichi”. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a39" ANNOTATION_REF="a38">
+                <ANNOTATION_VALUE>Entonces, el hombre dijo que eso era la candela. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a44" ANNOTATION_REF="a42">
+                <ANNOTATION_VALUE>Luego, él regresó, pero a buscar presas, presas. Ya había matado maquisapas y monos. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a46">
+                <ANNOTATION_VALUE>Entonces, sacó un pedazo de su rabo de la maquisapa para probar si se le podía cocinar. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a47">
+                <ANNOTATION_VALUE>De ahí la cogió, la comió y la probó. Se dio cuenta que estaba muy rico. “Está muy bueno, ahora voy a llevar para mi familia” dijo. Así, se llevó la candela. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a53" ANNOTATION_REF="a51">
+                <ANNOTATION_VALUE>Así, llevó la candela. Cuando estaba caminando, se tropezó y olvidó el nombre de la candela. Se paró para recogerla nuevamente. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a55" ANNOTATION_REF="a52">
+                <ANNOTATION_VALUE>De nuevo, trajo la candela y escuchó “chichi, chichi, chjj”.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a56" ANNOTATION_REF="a54">
+                <ANNOTATION_VALUE>Nuevamente, cuando regresaba corriendo y diciendo chichi, se cayó y se olvidó del nombre. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a63" ANNOTATION_REF="a57">
+                <ANNOTATION_VALUE>Nuevamente, volvió. Ya se le había hecho tarde. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a64" ANNOTATION_REF="a58">
+                <ANNOTATION_VALUE>Entonces dijo: “esta será la última vez que la voy a traer”. Eso dijo. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a59">
+                <ANNOTATION_VALUE>Otra vez se fue a traer corriendo la candela. Regresó nuevamente diciendo “chichi, chichi, chichi”. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a66" ANNOTATION_REF="a60">
+                <ANNOTATION_VALUE>Nuevamente, soltó la candela. Cuando se levantó, vió a sus hijos. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a61">
+                <ANNOTATION_VALUE>Ellos sabían el nombre  de la candela. “¡Ahh, papá está trayendo candela!”, dijeron. “¡Ahh, ese es el nombre!”, dijo el papá recordándolo en ese momento. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a68" ANNOTATION_REF="a62">
+                <ANNOTATION_VALUE>“Ese es el nombre”, dijo. Entonces, todos pudieron hacer una fogata. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a69">
+                <ANNOTATION_VALUE>Así la probaron. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a73">
+                <ANNOTATION_VALUE>Entonces, asaron una de las presas que trajo el hombre y se las comieron. Estaba muy rico. Desde ahí, los yine conocieron la candela. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a76" ANNOTATION_REF="a74">
+                <ANNOTATION_VALUE>Eso no más me acuerdo. Gracias.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="association-lt" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

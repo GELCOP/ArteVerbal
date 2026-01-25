@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2025-12-02T23:21:30-05:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///Users/hosuenuez/Documents/Programación/GELCOP/Webapp_narraciones/Audios y Copia de ELAN/Yagua/Alipio Torres/Cuento yagua - Alipio Torres.wav"
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./Cuento yagua - Alipio Torres.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:6b95b626-99f9-417b-8478-2f45ae62b52a</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">192</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="6720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="10410"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="16840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="18980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="24620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="28341"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="39292"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="43000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="48731"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="50926"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="59414"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="60804"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="65975"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="66634"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="70000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="75414"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="89292"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="91365"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="108250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="110295"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="117477"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="118700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="126533"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="127918"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="130983"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="133135"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="137540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="139081"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="148000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="151486"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="170108"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="170675"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="177918"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="178837"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="183054"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="184621"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="196162"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="198100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="201120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="203550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="213750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="214850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="226000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="248393"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="256620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="258720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="266233"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="269900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="282266"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="283594"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="311900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="316080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="336626"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="338626"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="345014"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="346477"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="350940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="355054"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="368243"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="369054"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="395162"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="397108"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="418459"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="419054"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="427081"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="428702"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="436783"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="439108"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="458891"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="459648"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="469567"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="470648"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="483640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="484800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="495234"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="505737"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="518459"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="520754"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="541196"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="542655"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="564590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="565737"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="573016"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="577262"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="593868"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="596147"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="613672"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="616688"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="625983"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="627360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="644540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="645622"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="662786"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="Phrases" TIER_ID="Transcripción">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Satu̠chu ta̠ri tu̠chuda</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>nutyara riwichanuya  ta̠ri nijya̠wa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>riwichanuyada sawichada towamu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>jasi riwicha. riwa sadimyu, riway, riwa̠ta jawada nacho̠ darya riwichanuya ta̠ri</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>taradamu riwa buya̠</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>samusu wari tita̠ju̠ nijya̠mi, uryajatu buya̠ aryorïmu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>ta̠yo̠ju̠ jita na saturu buya̠</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>saya sadimyu saja̠si</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>raju̠  satunu wari ta̠yo̠ju̠  jidaryu, sanu wari taranumanti raju̠ jidaryu  ratunu,  sanike wari ta̠yo̠ju̠</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>sajchupuyanu wari, tomunuñiju sawama ratyewa, sajechupuyanu ta̠yo̠ju̠</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>sasuwu wari, saterya wari sarorïmuju</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>siti sarorïmu, sanu na tarana rorïmya arupa tita̠ju̠ rorï</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>askitapu samachonu wari  ta̠yo̠ju̠</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>sanu tita̠ju̠ sarorï arupama</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15"
+                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>simimya tomunuñi  tita̠ju̠ nijya̠mi tunu wichi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16"
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>saya ji̠ta musojomu wari, sawa̠ta, tenuma sadenu rasatu, te jatya wari sadenu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>sawatani wari na tarana, sajasumi musojomisi  sarorïmu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18"
+                TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>satuwa̠chi ji̠ta  sasuna̠ wari dera</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19"
+                TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>saya ji̠ta sanacho̠ sunu bañukomu satiryo̠ wadinu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>nanarini̠ sapuchi wari sarorïmu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>sapu̠tyani samïrya saba mu samaje wïmu, jasima sawicha samïrya wadinu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22"
+                TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>satuwa̠chi wari riwasi ji̠ta, sasuna̠ wari ti̠ki wadinumanti, saya ji̠ta sanacho̠</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23"
+                TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>nannu̠  ji̠ta  tamidye rijawyenu wanira</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24"
+                TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>narajurundama sanikenuma dera satuchuma satayota</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25"
+                TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>ta̠yo̠ ji̠ta sa seryechara wari sa jawye wanira wadinu sasatu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26"
+                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>Rajawye ji̠ta waderonuma, saniketani ta̠yo̠ju. Te sawichanu raje̠, rinoda.   Satu̠chu wari dera na tarana ije̠ nona tomunuñiju sawani ta̠ri jasikitapu ramacho yi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27"
+                TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>saniketani ji̠ta  waderonu wari, ta̠yo̠ju̠ . Rudasitini raje̠ asirya yawa̠ta jasujyomu yanu  asirya saba ijeba sarudasi.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28"
+                TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>saya ji̠ta waderonu  sawa̠ta rudasi nacho̠, asirya sadi riwa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29"
+                TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>siri̠ ji̠ta saya towamu sawa̠ta jawada nacho̠</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30"
+                TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>towamu  saya, jasi ji̠ta satuwa̠chi saje̠ba, sanodaba</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31"
+                TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>rasu jasi, sanike ji̠ta, ta̠ra rasu yi.  sanu̠ wari samïrya, sanu̠ ji̠ta saje̠ bayantu, sanoda bayantu. saterya̠ ji̠ta sarorïmu sanikeni satyeri, atyeri ratu̠chu ji</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32"
+                TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>mu, towamu ratuwa̠chi raje̠ bayantu, rinoda bayantu, urye̠ya. uryanu nanda. uryeya ji̠ta wari jasi ji̠ta rituwachi, yatuwachi ji̠ta  sanikeni jita satyenu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33"
+                TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>sitama rije̠ bayantu, rinonoda bayantu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34"
+                TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>satuwa̠chi wari samïrya urya̠totini sanikeni ji̠ta satyenu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35"
+                TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>uryasowani sutyadu jasi ji̠ta uryawatini tomunuñiju</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36"
+                TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>jo, saya ji̠ta sirinuñi satyenu ja̠mi, saya ji̠ta na tarana</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37"
+                TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>jari wadakï  rawicha saje̠ sutyadu, sajatyani towa, na siri. satyeri pasiñu nini ji̠ta reni sanoda sutyadu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38"
+                TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>anuma ji̠ta, sanike  ji̠ta satyenuwa diye ji̠ta uryeya, uryawa̠ta tomunuñi nacho̠ uryawatini</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a39"
+                TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>yawa jamura buya̠, uryawa wichita, uryaraya̠, uryawati tita̠ju̠ tomunuñi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40"
+                TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>na tarana nijya̠mi sanikeni ta̠yo̠ju̠ sajasi̠. na, asirya  nijya̠mi towamu, ray ramusu saya ji̠ta towamu, sawa̠ta tita̠ju̠ towa wichi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41"
+                TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>sumusuni wañu, sumusu juti̠n, sumusu janari, sumusu  nuñi, tita̠ju̠</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a42"
+                TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts84">
+                <ANNOTATION_VALUE>riwichanuya nijya̠mi ta̠ri, ninaya ji̠ta sarorïmu rija̠tu buya̠ nuporika̠te</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43"
+                TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>inuwayanumanti, ataradamisinti sanike ji̠ta tita̠ju̠ nijya̠mi uryeya, uryaya ji̠ta, uryawata tomunuñiju, uryawatini saya ji̠ta tita̠ju̠ nijya̠mi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44"
+                TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE>riritoma tomunuñi vichadamu, sunu̠ ji̠ta mukomutimira, ja̠mu rorï, sajasumi ji̠ta rancha</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45"
+                TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>sapïru̠ wari, nutyi mudatu sapïru̠ sasutyanu sasutyadu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46"
+                TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE>rituwa̠chi ji̠ta tomunuñiju rimasi tita̠ju̠  yanu chi̠ra, chi̠rani.  Na nijya̠mi, na samïrya,  chi̠ra, iryani tita̠ju̠ iryanu, chi̠ra</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47"
+                TIME_SLOT_REF1="ts93" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>anumati masi tita̠ju̠ nijya̠mi tomunuñiju, jasi ji̠ta sasutyenu sasutyedu, richiduchawa tita̠ju̠ nijya̠mi, Rini wari satyewa riwati wari.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Note" PARENT_REF="Transcripción"
+        PARTICIPANT="A" TIER_ID="Traducción">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a143" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Nos cuenta la historia</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a144" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>cómo vivían antes la gente.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a145" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Su comunidad estaba en la selva.   </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a146" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Así vivían, haciendo su chacra, trabajando, cazando animales; así vivían antes.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a147" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Un día, preparaban su masato [y]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a148" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>invitaron a toda la gente: “vamos a tomar masato en mi casa”.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a149" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>La abuela no quería tomar masato.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a150" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>[Entonces,] se va a la chacra a cultivar.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a151" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>[En la chacra,] un pedazo de candela cae a su lado de la abuela. Lo mira, entonces, “porque cae un padazo de candela en mi lado”, dice la abuela.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a152" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>La abuela pensó en ese momento: “los indios ya les mataron a mi familia”, pensó la abuela.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a153" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Tuvo mucho miedo [y] regresó a su casa. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a154" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Llegó a su casa, “mira, no hay las casas, todas las casas están quemados”, [dijo la abuela].</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a155" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Entonces, la abuela se quedó muy sola.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a156" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Mira, toda su casa ya se quemó.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a157" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Los indios ya les comieron a toda la gente que vivían ahí.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a158" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Se va al puerto a buscar dónde está el bebé de su nieta¹, dónde le botaron al bebé.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a159" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Entonces lo busca, pero no hay [el bebe]. Sube del puerto a su casa;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a160" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>entonces, escuchó que lloraba un niño.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a161" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Se fue a buscarlo [y] lo ve echado en el barranco a un bebé.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a162" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lo agarró y se lo llevó a su casa.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a163" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>Lo ha limpiado bien, le puso dentro de su mosquitero. Ahí estaba bien el bebé. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a164" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>Después, la abuela mira [y] ahí [también] estaba su hermano. Lo agarró [al hermano]. Los bebés están con ella.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a165" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>Ella miraba en las mañanas que crecían muy rápido.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a166" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>En dos días, el niño ya estaba conversando con la abuela.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a167" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>Entonces, la abuela estaba muy alegre porque crecen muy rápido los bebés, su nietos.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a168" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>Entonces, crecieron, ya eran joven y le preguntaban a su abuela: “¿dónde están mi papá, mi mamá?” [La abuela] le cuenta al niño: “Ya no hay tu papá, los indios los mataron antes. Yo me quedé sola acá”.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a169" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>El joven le pregunta a la abuela: “¿Tenía su pucuna mi papá? Búscalo en la cocina. “Allí, guardaba tu papá finado su pucuna²”, [dijo la abuela].</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a170" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>El joven se va a buscar la pucuna [y] ahí la encontró.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a171" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>Agarró la pucuna [y] se fue al monte a buscar animales para cazar.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a172" ANNOTATION_REF="a30">
+                <ANNOTATION_VALUE>Se fue al monte. Allí, les escucho a su papá finado [y] su mamá finada.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a173" ANNOTATION_REF="a31">
+                <ANNOTATION_VALUE>“Suena allá”, dice, “¿qué suena acá”. Mira bien, entonces, lo ve al alma de su papá [y] el alma de su mamá. [Él] regresa a su casa [y] le dice a su hermano: “hermano te cuento”.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a174" ANNOTATION_REF="a32">
+                <ANNOTATION_VALUE>“Allá, en el monte, escuché el tunche de papá, el tunche de mamá. Vamos, vamos a ver.Allí se fueron [y] ahí escucharon. “Ahora escucha”, le dice a su hermano.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a175" ANNOTATION_REF="a33">
+                <ANNOTATION_VALUE>Llegó el tunche de su papá [y] el tunche de su mamá.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a176" ANNOTATION_REF="a34">
+                <ANNOTATION_VALUE>“Lo has escuchado muy bien”, “vamos a agarrarlo”, le dice a su hermano.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a177" ANNOTATION_REF="a35">
+                <ANNOTATION_VALUE>“Vamos a quitarle su pijuano, con eso les vamos a matar a los indios”. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a178" ANNOTATION_REF="a36">
+                <ANNOTATION_VALUE>Sí, se va, lo quieren agarrar, se va entonces [los hermanos], pero no hay nada.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a179" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>Era muy caliente el pijuano de su papá, le botó en el monte, pero no lo agarró. Su hermano menor agarró el pijuano de su mamá. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a180" ANNOTATION_REF="a38">
+                <ANNOTATION_VALUE>“Ya lo tenemos”, le dice a su hermano. “Ahora nos vamos”, “nos vamos a buscar a los indios para matarlos”.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a181" ANNOTATION_REF="a39">
+                <ANNOTATION_VALUE>“Prepara bastante masato, vamos a hacer fiesta, para bailar, para matar a todos los indios”, dice el nieto.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a182" ANNOTATION_REF="a40">
+                <ANNOTATION_VALUE>“Pero no hay gente”, le dice la abuela a su nieto. “No, ahí están la gente en el monte”, “yo les voy a invitar” [y] se fue al monte a buscar a todos los animales del monte.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a183" ANNOTATION_REF="a41">
+                <ANNOTATION_VALUE>Le invito al majás, le invitó al sajino, le invitó al venado, tambien le invitó a la isula, a todos.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a184" ANNOTATION_REF="a42">
+                <ANNOTATION_VALUE>[Los animales] eran gente antes. Se fueron a su casa [y] tomaron el masato toda la noche.  </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a185" ANNOTATION_REF="a43">
+                <ANNOTATION_VALUE>Vino la tarde. El otro día, [el nieto] le dijo a toda la gente: “Vámonos, ahora sí nos vamos; vamos a buscar a los indios, les vamos a matar”. Entonces, se fue toda la gente [es decir, los nietos y los animales, que antes eran humanos].</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a186" ANNOTATION_REF="a44">
+                <ANNOTATION_VALUE>Llegaron al pueblo de los indios, vieron una maloca, una casa grande [y], entonces, subió encima del asa.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a187" ANNOTATION_REF="a45">
+                <ANNOTATION_VALUE>Se convirtió como una carachupa, [uno de los humanos], e hizo sonar su pijuano.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a188" ANNOTATION_REF="a46">
+                <ANNOTATION_VALUE>Escucharon todos los indios [y] salieron todos: “mira qué es, quién es él; no es una persona, no es bueno; qué es; vengan todos miren qué es”.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a189" ANNOTATION_REF="a47">
+                <ANNOTATION_VALUE>Cuando ya salieron toda la gente indígena, entonces, hizo sonar su pijuano [y] se desmayó toda la gente. Vinieron sus compañeros [y] mataron a los enemigos.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Note" PARENT_REF="Transcripción" TIER_ID="Notas">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a190" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a191" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>¹ La abuela, al irse a la chacra, dejó a su familia en su casa. Al volver, encontró su casa quemada sin su familia. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a192" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>² &#x1d617;&#x1d636;&#x1d624;&#x1d636;&#x1d62f;&#x1d622;: cerbatana</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Phrases" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Blank" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Words" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Text" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Note" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="imported-sep" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

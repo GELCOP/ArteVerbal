@@ -2,7 +2,9 @@ import React from 'react';
 import { TranslatableText } from './locale/TranslatableText.jsx';
 import { 
   indexPageTitleHeaderText, 
-  indexPageMediaHeaderText 
+  indexPageAuthorHeaderText,
+  indexPageNarrationHeaderText,
+  indexPageTranslationHeaderText
 } from './locale/LocaleConstants.jsx';
 
 require('datatables.net-dt');
@@ -10,6 +12,7 @@ import 'datatables.net-dt/css/jquery.dataTables.css';
 
 export class StoryIndex extends React.Component {
   async componentDidMount() {
+    const SHOW_SUBTITLE = false;
     const index = (await import('~./data/index.json')).default;
     let storyList = [];
 
@@ -22,11 +25,9 @@ export class StoryIndex extends React.Component {
         }
         const subtitle = index[story]['subtitle'] || '';
         let titleWithSubtitle = mainTitle;
-        if (subtitle !== '') {
+        if (SHOW_SUBTITLE && subtitle !== '') {
           titleWithSubtitle += `<br/><span class="indexSubtitle">${subtitle}</span>`;
         }
-
-        // React Router link, wrapping title + subtitle
         const link = `<a href='#/story/${index[story]['story ID']}'>${titleWithSubtitle}</a>`;
 
         const narration = index[story]['narration'] || '';
@@ -58,10 +59,10 @@ export class StoryIndex extends React.Component {
         <table id="indexTable">
           <thead>
             <tr>
-              <th>Título</th>
-              <th>Lengua</th>
-              <th>Narración</th>
-              <th>Traducción</th>
+              <th><TranslatableText dictionary={indexPageTitleHeaderText} /></th>
+              <th><TranslatableText dictionary={indexPageAuthorHeaderText} /></th>
+              <th><TranslatableText dictionary={indexPageNarrationHeaderText} /></th>
+              <th><TranslatableText dictionary={indexPageTranslationHeaderText} /></th>
             </tr>
           </thead>
         </table>

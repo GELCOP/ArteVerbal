@@ -60,13 +60,23 @@ export const indexPageTitleHeaderText = {
 };
 
 export const indexPageAuthorHeaderText = {
-  [ENGLISH] : "Author",
-  [ESPANOL] : "Autor",
+  [ENGLISH] : "Language",
+  [ESPANOL] : "Lengua",
 };
 
 export const indexPageMediaHeaderText = {
   [ENGLISH] : "Media",
   [ESPANOL] : "Medios",
+};
+
+export const indexPageNarrationHeaderText = {
+  [ENGLISH] : "Narration",
+  [ESPANOL] : "Narración",
+};
+
+export const indexPageTranslationHeaderText = {
+  [ENGLISH] : "Translation",
+  [ESPANOL] : "Traducción",
 };
 
 // Use if a story isn't found.
