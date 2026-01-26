@@ -504,7 +504,14 @@ video {
 
 	/* Panels: left stacks, center becomes full-width */
 	#leftPanel { position: relative; width: 100% !important; height: auto !important; overflow: visible; border-bottom: 1px solid #e0e0e0; }
-	#centerPanel, #untimedTextDisplay { position: relative; margin-left: 0 !important; width: 100% !important; height: calc(100% - 140px); padding-bottom: 120px; }
+	#centerPanel, #untimedTextDisplay {
+		position: relative;
+		margin-left: 0 !important;
+		width: 100% !important;
+		height: calc(100% - 140px);
+		padding-bottom: calc(48px + env(safe-area-inset-bottom, 0px) + 160px);
+		scroll-padding-bottom: calc(48px + env(safe-area-inset-bottom, 0px) + 160px);
+	}
 
 	/* Media (video/audio) */
 	#video { width: 100vw; max-width: 100%; }
