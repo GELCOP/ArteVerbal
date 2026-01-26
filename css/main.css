@@ -488,86 +488,44 @@ video {
     display: none !important;
 }
 
-/* Responsive adjustments for mobile devices */
+/* Responsive adjustments for mobile devices (max-width: 767px)
+   Organized: layout, media, blocks, typography, misc */
 @media (max-width: 767px) {
-	/* Navbar */
+	/* Layout & navbar */
 	#navbar { padding: 0 12px; }
 	#navTitle { max-width: 70%; }
 	#navTitle a { font-size: 1.2em; }
-	/* hide subtitle on mobile */
 	#navSubtitle { display: none !important; }
 	#navLinks { margin-top: 0.2em; }
-	#navLinks a { margin-right: 0.6em; font-size: 1em; padding: .15em .35em; }
+	#navLinks a { margin-right: .6em; font-size: 1em; padding: .15em .35em; }
 
-	/* Page content spacing */
+	/* Page spacing */
 	.content { margin: 12px; }
 
-	/* Left panel should stack above content on small screens */
-	#leftPanel {
-		position: relative;
-		width: 100% !important;
-		height: auto !important;
-		overflow: visible;
-		left: 0;
-		top: 0;
-		border-bottom: 1px solid #e0e0e0;
-	}
+	/* Panels: left stacks, center becomes full-width */
+	#leftPanel { position: relative; width: 100% !important; height: auto !important; overflow: visible; border-bottom: 1px solid #e0e0e0; }
+	#centerPanel, #untimedTextDisplay { position: relative; margin-left: 0 !important; width: 100% !important; height: calc(100% - 140px); }
 
-	/* Center / main content becomes full width */
-	#centerPanel, #untimedTextDisplay {
-		position: relative;
-		margin-left: 0 !important;
-		width: 100% !important;
-		height: calc(100% - 140px); /* leave space for nav + footer + audio */
-	}
-
-	/* Video and media scale to container */
+	/* Media (video/audio) */
 	#video { width: 100vw; max-width: 100%; }
 	video { display: block; width: 100%; }
+	audio { position: fixed; left: 0; bottom: 40px; width: 100%; box-sizing: border-box; padding: 0 8px; }
 
-	/* Audio controls fixed above footer but full width */
-	audio {
-		position: fixed;
-		left: 0;
-		bottom: 40px;
-		width: 100%;
-		box-sizing: border-box;
-		padding: 0 8px;
-	}
-
-	/* Make blocks stack vertically for readability */
-	.labeledTimeBlock, .untimedBlock {
-		display: block;
-		grid-template-columns: 1fr;
-		padding-top: 12px;
-		padding-bottom: 12px;
-		border-top-width: 0.5px;
-	}
+	/* Blocks stacking */
+	.labeledTimeBlock, .untimedBlock { display: block; grid-template-columns: 1fr; padding: 12px 0; border-top-width: .5px; }
 	.timeBlock { float: none; padding-left: 6px; overflow-x: auto; }
 
-	/* Tweak fonts and spacing for mobile */
+	/* Typography */
 	.topRow { font-size: 1.05em; line-height: 1.4; }
-	/* td should be a bit smaller than topRow */
 	td { font-size: 1.00em; }
 	.subtitle, .searchSentence { font-size: 0.95em; }
 
-	/* Speaker labels inline */
+	/* Small UI tweaks */
 	.speakerLabel { display: inline-block; margin-right: 8px; }
-
-	/* Footer adjustments */
 	footer { height: 48px; justify-content: center; }
-
-	/* Small fixes for minibar and tabs */
 	.minibarTabs > li { width: 50%; }
 
-	/* Hide specific timestamp span on mobile (id contains pipe character) */
-	/* Hide timestamps on mobile (covers .timeStamp and .timeStampContainer, including ids starting with '|') */
-	.timeStamp, .timeStampContainer { display: none !important; }
-	span[id^="|"].timeStampContainer.timeStamp { display: none !important; }
-
-	/* Hide all spans inside timed display on mobile (not only first child) */
-	#timedTextDisplay > div > div > div > span { display: none !important; }
-	/* Fallback: hide any span containing 'time' in its class under #timedTextDisplay */
-	#timedTextDisplay span[class*="time"] { display: none !important; }
+	/* Timestamps: hide on mobile (covers common classes and timed spans) */
+	.timeStamp, .timeStampContainer, #timedTextDisplay span[class*="time"] { display: none !important; }
 
 }
