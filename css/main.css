@@ -547,7 +547,9 @@ video {
 
 	/* Tweak fonts and spacing for mobile */
 	.topRow { font-size: 1.05em; line-height: 1.4; }
-	td, .subtitle, .searchSentence { font-size: 0.95em; }
+	/* td should be a bit smaller than topRow */
+	td { font-size: 1.00em; }
+	.subtitle, .searchSentence { font-size: 0.95em; }
 
 	/* Speaker labels inline */
 	.speakerLabel { display: inline-block; margin-right: 8px; }
@@ -563,7 +565,9 @@ video {
 	.timeStamp, .timeStampContainer { display: none !important; }
 	span[id^="|"].timeStampContainer.timeStamp { display: none !important; }
 
-	/* Hide specific span inside timed display on mobile */
-	#timedTextDisplay > div:nth-child(1) > div > div > span { display: none !important; }
+	/* Hide all spans inside timed display on mobile (not only first child) */
+	#timedTextDisplay > div > div > div > span { display: none !important; }
+	/* Fallback: hide any span containing 'time' in its class under #timedTextDisplay */
+	#timedTextDisplay span[class*="time"] { display: none !important; }
 
 }
