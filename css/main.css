@@ -487,3 +487,80 @@ video {
 #indexTable_filter {
     display: none !important;
 }
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 767px) {
+	/* Navbar */
+	#navbar { padding: 0 12px; }
+	#navTitle { max-width: 70%; }
+	#navTitle a { font-size: 1.2em; }
+	/* hide subtitle on mobile */
+	#navSubtitle { display: none !important; }
+	#navLinks { margin-top: 0.2em; }
+	#navLinks a { margin-right: 0.6em; font-size: 1em; padding: .15em .35em; }
+
+	/* Page content spacing */
+	.content { margin: 12px; }
+
+	/* Left panel should stack above content on small screens */
+	#leftPanel {
+		position: relative;
+		width: 100% !important;
+		height: auto !important;
+		overflow: visible;
+		left: 0;
+		top: 0;
+		border-bottom: 1px solid #e0e0e0;
+	}
+
+	/* Center / main content becomes full width */
+	#centerPanel, #untimedTextDisplay {
+		position: relative;
+		margin-left: 0 !important;
+		width: 100% !important;
+		height: calc(100% - 140px); /* leave space for nav + footer + audio */
+	}
+
+	/* Video and media scale to container */
+	#video { width: 100vw; max-width: 100%; }
+	video { display: block; width: 100%; }
+
+	/* Audio controls fixed above footer but full width */
+	audio {
+		position: fixed;
+		left: 0;
+		bottom: 40px;
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 8px;
+	}
+
+	/* Make blocks stack vertically for readability */
+	.labeledTimeBlock, .untimedBlock {
+		display: block;
+		grid-template-columns: 1fr;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		border-top-width: 0.5px;
+	}
+	.timeBlock { float: none; padding-left: 6px; overflow-x: auto; }
+
+	/* Tweak fonts and spacing for mobile */
+	.topRow { font-size: 1.05em; line-height: 1.4; }
+	td, .subtitle, .searchSentence { font-size: 0.95em; }
+
+	/* Speaker labels inline */
+	.speakerLabel { display: inline-block; margin-right: 8px; }
+
+	/* Footer adjustments */
+	footer { height: 48px; justify-content: center; }
+
+	/* Small fixes for minibar and tabs */
+	.minibarTabs > li { width: 50%; }
+
+	/* Hide specific timestamp span on mobile (id contains pipe character) */
+	/* Hide timestamps on mobile (covers .timeStamp and .timeStampContainer, including ids starting with '|') */
+	.timeStamp, .timeStampContainer { display: none !important; }
+	span[id^="|"].timeStampContainer.timeStamp { display: none !important; }
+
+}
