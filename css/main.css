@@ -517,7 +517,7 @@ video {
 
 	/* Typography */
 	.topRow { font-size: 1.05em; line-height: 1.4; }
-	td { font-size: 1.00em; }
+	td { font-size: 1.04em; }
 	.subtitle, .searchSentence { font-size: 0.95em; }
 
 	/* Small UI tweaks */
