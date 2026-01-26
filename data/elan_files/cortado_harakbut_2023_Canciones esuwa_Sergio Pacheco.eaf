@@ -402,20 +402,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a30">
-                <ANNOTATION_VALUE>Gracias, eso nomas digo.¹</ANNOTATION_VALUE>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-    </TIER>
-    <TIER LINGUISTIC_TYPE_REF="Note" PARENT_REF="Transcripción"
-        PARTICIPANT="A" TIER_ID="Notas">
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a61" ANNOTATION_REF="a1">
-                <ANNOTATION_VALUE/>
-            </REF_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a30">
-                <ANNOTATION_VALUE>¹ hooLLLALLAL</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Gracias, eso nomas digo.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
