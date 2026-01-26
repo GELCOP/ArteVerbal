@@ -504,12 +504,12 @@ video {
 
 	/* Panels: left stacks, center becomes full-width */
 	#leftPanel { position: relative; width: 100% !important; height: auto !important; overflow: visible; border-bottom: 1px solid #e0e0e0; }
-	#centerPanel, #untimedTextDisplay { position: relative; margin-left: 0 !important; width: 100% !important; height: calc(100% - 140px); }
+	#centerPanel, #untimedTextDisplay { position: relative; margin-left: 0 !important; width: 100% !important; height: calc(100% - 140px); padding-bottom: 120px; }
 
 	/* Media (video/audio) */
 	#video { width: 100vw; max-width: 100%; }
 	video { display: block; width: 100%; }
-	audio { position: fixed; left: 0; bottom: 40px; width: 100%; box-sizing: border-box; padding: 0 8px; }
+	audio { position: fixed; left: 0; bottom: 48px; width: 100%; box-sizing: border-box; padding: 0 8px; }
 
 	/* Blocks stacking */
 	.labeledTimeBlock, .untimedBlock { display: block; grid-template-columns: 1fr; padding: 12px 0; border-top-width: .5px; }
