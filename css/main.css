@@ -517,15 +517,14 @@ video {
 
 	/* Typography */
 	.topRow { font-size: 1.05em; line-height: 1.4; }
-	td { font-size: 1.04em; }
+	td { font-size: 1.00em; }
 	.subtitle, .searchSentence { font-size: 0.95em; }
 
 	/* Small UI tweaks */
-	.speakerLabel { display: inline-block; margin-right: 8px; }
+	.speakerLabel { display: none; }
 	footer { height: 48px; justify-content: center; }
 	.minibarTabs > li { width: 50%; }
 
 	/* Timestamps: hide on mobile (covers common classes and timed spans) */
 	.timeStamp, .timeStampContainer, #timedTextDisplay span[class*="time"] { display: none !important; }
-
 }
