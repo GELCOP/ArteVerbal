@@ -509,8 +509,8 @@ video {
 		margin-left: 0 !important;
 		width: 100% !important;
 		height: calc(100% - 140px);
-		padding-bottom: calc(48px + env(safe-area-inset-bottom, 0px) + 160px);
-		scroll-padding-bottom: calc(48px + env(safe-area-inset-bottom, 0px) + 160px);
+		padding-bottom: calc(48px + env(safe-area-inset-bottom, 0px) + 100px);
+		scroll-padding-bottom: calc(48px + env(safe-area-inset-bottom, 0px) + 100px);
 	}
 
 	/* Media (video/audio) */
