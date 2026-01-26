@@ -492,11 +492,11 @@ video {
    Organized: layout, media, blocks, typography, misc */
 @media (max-width: 767px) {
 	/* Layout & navbar */
-	#navbar { padding: 0 12px; }
-	#navTitle { max-width: 70%; }
+	#navbar { padding: 6px 12px; justify-content: center; text-align: center; }
+	#navTitle { max-width: 100%; margin-right: 0; text-align: center; }
 	#navTitle a { font-size: 1.2em; }
 	#navSubtitle { display: none !important; }
-	#navLinks { margin-top: 0.2em; }
+	#navLinks { width: 100%; margin-top: 0.2em; margin-left: 0; text-align: center; }
 	#navLinks a { margin-right: .6em; font-size: 1em; padding: .15em .35em; }
 
 	/* Page spacing */
