@@ -563,4 +563,7 @@ video {
 	.timeStamp, .timeStampContainer { display: none !important; }
 	span[id^="|"].timeStampContainer.timeStamp { display: none !important; }
 
+	/* Hide specific span inside timed display on mobile */
+	#timedTextDisplay > div:nth-child(1) > div > div > span { display: none !important; }
+
 }
