@@ -13,8 +13,8 @@ export const DEFAULT_LOCALE = ESPANOL;
 
 // NavBar text (header).
 export const navBarTitleText = {
-  [ENGLISH]: "Arte verbal:",
-  [ESPANOL]: "Arte verbal:",
+  [ENGLISH]: "Arte verbal",
+  [ESPANOL]: "Arte verbal",
 };
 
 export const navBarSearchText = {
