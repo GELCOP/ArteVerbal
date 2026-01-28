@@ -10,7 +10,7 @@ const landingPageJSX = {
     </div>,
   [ESPANOL]:
     <div>
-      <p>¡Bienvenido! Este sitio web funciona con LingView. Haga clic <a href='#/index'>"Índice de textos"</a> para ver algunos textos de ejemplo. </p>
+      <p>¡Bienvenido! Este sitio web funciona con LingView. Haga clic <a href='#/index'>"Narraciones"</a> para ver algunos textos de ejemplo. </p>
       <p>Para personalizar este texto de bienvenida, edite el archivo 'jsx/App/LandingPage.jsx' y luego ejecute el paquete web para que los cambios surtan efecto. </p>
     </div>,
 };
